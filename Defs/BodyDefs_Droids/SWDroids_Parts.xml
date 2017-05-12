@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <BodyPartDef>
+    <defName>SWDroids_Photoreceptor</defName>
+    <label>primary photoreceptor</label>
+    <hitPoints>10</hitPoints>
+    <frostbiteVulnerability>2</frostbiteVulnerability>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <isSolid>true</isSolid>
+    <isAlive>false</isAlive>
+    <useDestroyedOutLabel>true</useDestroyedOutLabel>
+    <tags>
+      <li>SightSource</li>
+    </tags>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>SWDroids_ProcessorStateIndicator</defName>
+    <label>processor state indicator</label>
+    <hitPoints>10</hitPoints>
+    <frostbiteVulnerability>2</frostbiteVulnerability>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <isSolid>true</isSolid>
+    <isAlive>false</isAlive>
+    <useDestroyedOutLabel>true</useDestroyedOutLabel>
+  </BodyPartDef>  
+  
+
+  <BodyPartDef>
+    <defName>SWDroids_LogicFunctionDisplay</defName>
+    <label>logic function display</label>
+    <hitPoints>10</hitPoints>
+    <frostbiteVulnerability>2</frostbiteVulnerability>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <isSolid>true</isSolid>
+    <isAlive>false</isAlive>
+    <useDestroyedOutLabel>true</useDestroyedOutLabel>
+  </BodyPartDef>    
+  
+  <BodyPartDef>
+    <defName>SWDroids_HolographicProjector</defName>
+    <label>holographic projector</label>
+    <hitPoints>10</hitPoints>
+    <frostbiteVulnerability>2</frostbiteVulnerability>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <isSolid>true</isSolid>
+    <isAlive>false</isAlive>
+    <useDestroyedOutLabel>true</useDestroyedOutLabel>
+  </BodyPartDef>    
+  
+  <BodyPartDef>
+    <defName>SWDroids_FireExtinguisher</defName>
+    <label>fire extinguisher</label>
+    <hitPoints>10</hitPoints>
+    <frostbiteVulnerability>2</frostbiteVulnerability>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <isSolid>true</isSolid>
+    <isAlive>false</isAlive>
+    <useDestroyedOutLabel>true</useDestroyedOutLabel>
+  </BodyPartDef>    
+  
+  <BodyPartDef>
+    <defName>SWDroids_DataCardInput</defName>
+    <label>data card input</label>
+    <hitPoints>10</hitPoints>
+    <frostbiteVulnerability>2</frostbiteVulnerability>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <isSolid>true</isSolid>
+    <isAlive>false</isAlive>
+    <useDestroyedOutLabel>true</useDestroyedOutLabel>
+    <tags>
+      <li>DataPathway</li>
+    </tags>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>SWDroids_MainLogicProcessor</defName>
+    <label>main logic processor</label>
+    <hitPoints>30</hitPoints>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <isSolid>true</isSolid>
+    <isAlive>false</isAlive>
+    <tags>
+      <li>ConsciousnessSource</li>
+	  <li>DataProcessor</li>
+    </tags>
+  </BodyPartDef>  
+
+  <BodyPartDef>
+    <defName>SWDroids_MemoryCore</defName>
+    <label>memory core</label>
+    <hitPoints>30</hitPoints>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <isSolid>true</isSolid>
+    <isAlive>false</isAlive>
+    <tags>
+      <li>DataSource</li>
+    </tags>
+  </BodyPartDef>  
+
+  <BodyPartDef>
+    <defName>SWDroids_Periscope</defName>
+    <label>periscope</label>
+    <hitPoints>10</hitPoints>
+    <frostbiteVulnerability>2</frostbiteVulnerability>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <isSolid>true</isSolid>
+    <isAlive>false</isAlive>
+    <useDestroyedOutLabel>true</useDestroyedOutLabel>
+    <tags>
+      <li>SightSource</li>
+    </tags>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>SWDroids_ClasperArm</defName>
+    <label>clasper arm</label>
+    <hitPoints>30</hitPoints>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <isSolid>true</isSolid>
+    <isAlive>false</isAlive>
+    <tags>
+      <li>ManipulationLimbCore</li>
+    </tags>
+  </BodyPartDef>  
+  
+  <BodyPartDef>
+    <defName>SWDroids_ClasperClaw</defName>
+    <label>clasper claw</label>
+    <hitPoints>20</hitPoints>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <isSolid>true</isSolid>
+    <isAlive>false</isAlive>
+    <tags>
+      <li>ManipulationLimbSegment</li>
+      <li>ManipulationLimbDigit</li>	  
+    </tags>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>SWDroids_ElectricProd</defName>
+    <label>electric prod</label>
+    <hitPoints>20</hitPoints>
+    <frostbiteVulnerability>5</frostbiteVulnerability>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <isSolid>true</isSolid>
+    <isAlive>false</isAlive>
+    <spawnThingOnRemoved>ScytherBlade</spawnThingOnRemoved>
+  </BodyPartDef>
+
+
+  <BodyPartDef>
+    <defName>SWDroids_Speaker</defName>
+    <label>acoustic signalling center</label>
+    <hitPoints>10</hitPoints>
+    <frostbiteVulnerability>2</frostbiteVulnerability>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <isSolid>true</isSolid>
+    <isAlive>false</isAlive>
+    <useDestroyedOutLabel>true</useDestroyedOutLabel>
+    <tags>
+      <li>TalkingSource</li>      
+	  <li>HearingSource</li>
+    </tags>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>SWDroids_InterfaceArmAlpha</defName>
+    <label>computer interface arm (alpha)</label>
+    <hitPoints>30</hitPoints>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <isSolid>true</isSolid>
+    <isAlive>false</isAlive>
+    <tags>
+      <li>ComputerInterfaceSource</li>
+	  <li>DataPathway</li>
+    </tags>
+  </BodyPartDef>    
+  
+  <BodyPartDef>
+    <defName>SWDroids_InterfaceArmBeta</defName>
+    <label>computer interface arm (beta)</label>
+    <hitPoints>30</hitPoints>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <isSolid>true</isSolid>
+    <isAlive>false</isAlive>
+    <tags>
+      <li>ComputerInterfaceSource</li>
+	  <li>DataPathway</li>
+    </tags>
+  </BodyPartDef>    
+
+  <BodyPartDef>
+    <defName>SWDroids_HeadDome</defName>
+    <label>head dome</label>
+    <hitPoints>30</hitPoints>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <isSolid>true</isSolid>
+    <isAlive>false</isAlive>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>SWDroids_HeadRotationRing</defName>
+    <label>head rotation ring</label>
+    <hitPoints>30</hitPoints>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <isSolid>true</isSolid>
+    <isAlive>false</isAlive>
+  </BodyPartDef>  
+  
+  <BodyPartDef>
+    <defName>SWDroids_PowerDistributionUmbilical</defName>
+    <label>power distribution umbilical</label>
+    <hitPoints>30</hitPoints>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <isSolid>true</isSolid>
+    <isAlive>false</isAlive>
+    <tags>
+      <li>BreathingPathway</li>
+      <li>EatingPathway</li>
+      <li>TalkingPathway</li>
+	  <li>PowerPathway</li>
+    </tags>
+  </BodyPartDef>    
+  
+  <BodyPartDef>
+    <defName>SWDroids_DurasteelShell</defName>
+    <label>durasteel shell</label>
+    <hitPoints>40</hitPoints>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <isSolid>true</isSolid>
+    <isAlive>false</isAlive>
+  </BodyPartDef>
+  
+    
+  <BodyPartDef>
+    <defName>SWDroids_FineManipulatorArm</defName>
+    <label>fine manipulator arm</label>
+    <hitPoints>30</hitPoints>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <isSolid>true</isSolid>
+    <isAlive>false</isAlive>
+    <tags>
+      <li>ManipulationLimbCore</li>
+    </tags>
+  </BodyPartDef>  
+  
+  <BodyPartDef>
+    <defName>SWDroids_FineManipulatorClasper</defName>
+    <label>fine manipulator clasper</label>
+    <hitPoints>20</hitPoints>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <isSolid>true</isSolid>
+    <isAlive>false</isAlive>
+    <tags>
+      <li>ManipulationLimbSegment</li>
+      <li>ManipulationLimbDigit</li>	  
+    </tags>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>SWDroids_SpacecraftControlArm</defName>
+    <label>spacecraft control arm</label>
+    <hitPoints>30</hitPoints>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <isSolid>true</isSolid>
+    <isAlive>false</isAlive>
+    <tags>
+      <li>ManipulationLimbCore</li>
+	  <li>SpacecraftControlCore</li>
+    </tags>
+  </BodyPartDef>  
+  
+  
+  <BodyPartDef>
+    <defName>SWDroids_UtilityArm</defName>
+    <label>multi-function utility arm</label>
+    <hitPoints>30</hitPoints>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <isSolid>true</isSolid>
+    <isAlive>false</isAlive>
+    <tags>
+      <li>ManipulationLimbCore</li>
+    </tags>
+  </BodyPartDef>  
+  
+  <BodyPartDef>
+    <defName>SWDroids_UtilityArmClasper</defName>
+    <label>multi-function utility arm clasper</label>
+    <hitPoints>20</hitPoints>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <isSolid>true</isSolid>
+    <isAlive>false</isAlive>
+    <tags>
+      <li>ManipulationLimbSegment</li>
+      <li>ManipulationLimbDigit</li>	  
+    </tags>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>SWDroids_LubricantReservoir</defName>
+    <label>lubricant reservoir</label>
+    <hitPoints>10</hitPoints>
+    <frostbiteVulnerability>2</frostbiteVulnerability>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <isSolid>true</isSolid>
+    <isAlive>false</isAlive>
+    <useDestroyedOutLabel>true</useDestroyedOutLabel>
+    <tags>
+      <li>LubricantReservoir</li>
+    </tags>
+  </BodyPartDef>  
+  
+  <BodyPartDef>
+    <defName>SWDroids_HiPowerRechargeCoupling</defName>
+    <label>hi-power recharge coupling</label>
+    <hitPoints>10</hitPoints>
+    <frostbiteVulnerability>2</frostbiteVulnerability>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <isSolid>true</isSolid>
+    <isAlive>false</isAlive>
+    <useDestroyedOutLabel>true</useDestroyedOutLabel>
+    <tags>
+      <li>PowerInput</li>
+    </tags>
+  </BodyPartDef>  
+  
+  <BodyPartDef>
+    <defName>SWDroids_LowPowerRechargeSocket</defName>
+    <label>low-power recharge socket</label>
+    <hitPoints>10</hitPoints>
+    <frostbiteVulnerability>2</frostbiteVulnerability>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <isSolid>true</isSolid>
+    <isAlive>false</isAlive>
+    <useDestroyedOutLabel>true</useDestroyedOutLabel>
+    <tags>
+      <li>PowerInput</li>
+    </tags>
+  </BodyPartDef>  
+  
+  <BodyPartDef>
+    <defName>SWDroids_UtilitySaw</defName>
+    <label>utility saw</label>
+    <hitPoints>20</hitPoints>
+    <frostbiteVulnerability>5</frostbiteVulnerability>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <isSolid>true</isSolid>
+    <isAlive>false</isAlive>
+    <spawnThingOnRemoved>ScytherBlade</spawnThingOnRemoved>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>SWDroids_PolaritySink</defName>
+    <label>polarity sink</label>
+    <hitPoints>10</hitPoints>
+    <frostbiteVulnerability>2</frostbiteVulnerability>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <isSolid>true</isSolid>
+    <isAlive>false</isAlive>
+    <useDestroyedOutLabel>true</useDestroyedOutLabel>
+    <tags>
+      <li>MagnetismBalanceSource</li>
+    </tags>
+  </BodyPartDef>  
+
+  <BodyPartDef>
+    <defName>SWDroids_ActuatingCouplerLeft</defName>
+    <label>left actuating coupler</label>
+    <hitPoints>25</hitPoints>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <isSolid>true</isSolid>
+    <isAlive>false</isAlive>
+    <tags>
+      <li>MovingLimbSegment</li>
+    </tags>
+  </BodyPartDef>  
+  
+  <BodyPartDef>
+    <defName>SWDroids_ActuatingCouplerRight</defName>
+    <label>right actuating coupler</label>
+    <hitPoints>25</hitPoints>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <isSolid>true</isSolid>
+    <isAlive>false</isAlive>
+    <tags>
+      <li>MovingLimbSegment</li>
+    </tags>
+  </BodyPartDef>    
+
+  <BodyPartDef>
+    <defName>SWDroids_HydraulicArmShaftLeft</defName>
+    <label>hydraulic arm shaft (left)</label>
+    <hitPoints>30</hitPoints>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <isSolid>true</isSolid>
+    <isAlive>false</isAlive>
+    <tags>
+      <li>MovingLimbCore</li>
+    </tags>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>SWDroids_HydraulicArmShaftRight</defName>
+    <label>hydraulic arm shaft (right)</label>
+    <hitPoints>30</hitPoints>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <isSolid>true</isSolid>
+    <isAlive>false</isAlive>
+    <tags>
+      <li>MovingLimbCore</li>
+    </tags>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>SWDroids_HydraulicArmShaftCenter</defName>
+    <label>retractable hydraulic arm shaft (center)</label>
+    <hitPoints>30</hitPoints>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <isSolid>true</isSolid>
+    <isAlive>false</isAlive>
+    <tags>
+      <li>MovingLimbCore</li>
+    </tags>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>SWDroids_AllTerrainTreadsLeft</defName>
+    <label>motorized all-terrain tread (left)</label>
+    <hitPoints>20</hitPoints>
+    <frostbiteVulnerability>2</frostbiteVulnerability>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <isSolid>true</isSolid>
+    <isAlive>false</isAlive>
+    <tags>
+      <li>MovingLimbSegment</li>
+    </tags>
+  </BodyPartDef>  
+  
+  <BodyPartDef>
+    <defName>SWDroids_AllTerrainTreadsCenter</defName>
+    <label>motorized all-terrain tread (center)</label>
+    <hitPoints>20</hitPoints>
+    <frostbiteVulnerability>2</frostbiteVulnerability>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <isSolid>true</isSolid>
+    <isAlive>false</isAlive>
+    <tags>
+      <li>MovingLimbSegment</li>
+    </tags>
+  </BodyPartDef>  
+  
+  <BodyPartDef>
+    <defName>SWDroids_AllTerrainTreadsRight</defName>
+    <label>motorized all-terrain tread (right)</label>
+    <hitPoints>20</hitPoints>
+    <frostbiteVulnerability>2</frostbiteVulnerability>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <isSolid>true</isSolid>
+    <isAlive>false</isAlive>
+    <tags>
+      <li>MovingLimbSegment</li>
+    </tags>
+  </BodyPartDef>  
+
+  <BodyPartDef>
+    <defName>SWDroids_LocomotionPowerCellsLeft</defName>
+    <label>locomotion power cells (left)</label>
+    <hitPoints>10</hitPoints>
+    <frostbiteVulnerability>2</frostbiteVulnerability>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <isSolid>true</isSolid>
+    <isAlive>false</isAlive>
+    <useDestroyedOutLabel>true</useDestroyedOutLabel>
+    <tags>
+      <li>PowerSource</li>
+    </tags>
+  </BodyPartDef>  
+  
+  <BodyPartDef>
+    <defName>SWDroids_LocomotionPowerCellsRight</defName>
+    <label>locomotion power cells (right)</label>
+    <hitPoints>10</hitPoints>
+    <frostbiteVulnerability>2</frostbiteVulnerability>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <isSolid>true</isSolid>
+    <isAlive>false</isAlive>
+    <useDestroyedOutLabel>true</useDestroyedOutLabel>
+    <tags>
+      <li>PowerSource</li>
+    </tags>
+  </BodyPartDef>  
+  
+  <BodyPartDef>
+    <defName>SWDroids_PowerbusCablesLeft</defName>
+    <label>powerbus cables (left)</label>
+    <hitPoints>10</hitPoints>
+    <frostbiteVulnerability>2</frostbiteVulnerability>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <isSolid>true</isSolid>
+    <isAlive>false</isAlive>
+    <useDestroyedOutLabel>true</useDestroyedOutLabel>
+    <tags>
+      <li>PowerPathway</li>
+    </tags>
+  </BodyPartDef>  
+  
+  <BodyPartDef>
+    <defName>SWDroids_PowerbusCablesRight</defName>
+    <label>powerbus cables (right)</label>
+    <hitPoints>10</hitPoints>
+    <frostbiteVulnerability>2</frostbiteVulnerability>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <isSolid>true</isSolid>
+    <isAlive>false</isAlive>
+    <useDestroyedOutLabel>true</useDestroyedOutLabel>
+    <tags>
+      <li>PowerPathway</li>
+    </tags>
+  </BodyPartDef>  
+
+</Defs>
